@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 87%;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.col-1{
+    width: 8.33%;
+    padding: 0 12px;
+}
+
+.col-2{
+	width: 16.66%;
+	padding: 0 12px;
+}
+
+.col-3{
+	width: 25%;
+	padding: 0 12px;
+}
+
+.col-4{
+	width: 33.33%;
+	padding: 0 12px;
+}
+
+.col-5{
+	width: 41.66%;
+	padding: 0 12px;
+}
+
+.col-6{
+	width: 50%;
+	padding: 0 12px;
+}
+
+.col-7{
+	width:58.33% ;
+	padding: 0 12px;
+}
+
+.col-8{
+	width:66.66% ;
+	padding: 0 12px;
+}
+
+.col-9{
+	width:75% ;
+	padding: 0 12px;
+}
+
+.col-10{
+	width:83.33% ;
+	padding: 0 12px;
+}
+
+.col-11{
+	width: 91.66%;
+	padding: 0 12px;
+}
+
+
+.col-12{
+	width: 100%;
+	padding: 0 12px;
+}
+section{
+	margin-bottom: 50px;
+}
+
+/* *******'''''''''''''''''' Header '''''''''''''''''''''********* */
+header{
+	background-color: #adb5bd;
+	position: fixed;
+	width: 100%;
+}
+
+header .h-name{
+	background-color: black;
+	height: 50px;
+}
+header .h-menu{
+	background-color: white;
+	height: 50px;
+}
+header .h-btu{
+	background-color: black;
+    height: 50px;
+}
+/* *******''''''''''''''''''End Header '''''''''''''''''''''********* */
+
+/* *******'''''''''''''''''' Home '''''''''''''''''''''********* */
+ .home{
+ 	background-color: #adb5bd;
+ 	height: 35em;
+ 	margin-bottom: 30px;
+ }
+/* *******''''''''''''''''''End Home '''''''''''''''''''''********* */
+
+/* *******'''''''''''''''''' About '''''''''''''''''''''********* */
+ .about .col-5{
+ 	background-color: #adb5bd;
+ 	height: 25em;
+ }
+ .about .row{
+ 	justify-content: space-evenly;
+ }
+ .about {
+ 	margin-bottom: 50px;
+ }
+/* *******''''''''''''''''''End About '''''''''''''''''''''********* */
+
+/* *******'''''''''''''''''' Counter '''''''''''''''''''''********* */
+.counter{
+	background-color: #adb5bd;
+	height: 13em;
+}
+/* *******''''''''''''''''''End Counter '''''''''''''''''''''********* */
+
+/* *******'''''''''''''''''' Why-mentor '''''''''''''''''''''********* */
+.why-mentor{
+	margin-bottom: 50px;
+}
+.why-mentor .row{
+	justify-content: space-evenly;
+}
+.why-mentor .col-4{
+    background-color: #adb5bd;
+    height: 25em;
+} 
+.why-mentor .col-2{
+    border: solid 1px;
+    border-color: #adb5bd;
+    margin: 60px 0px;
+}
+/* *******''''''''''''''''''End Why-mentor '''''''''''''''''''''********* */
+
+/* *******'''''''''''''''''' Packegs '''''''''''''''''''''********* */
+.packegs{
+	margin-bottom: 50px;
+}
+.packegs .col-3{
+	border: solid 1px;
+    border-color: #adb5bd;
+    height: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+/* *******''''''''''''''''''End Packegs '''''''''''''''''''''********* */
+
+
+/* *******'''''''''''''''''' Courses '''''''''''''''''''''********* */
+.courses .col-3{
+	height: 25em;
+	background-color: #adb5bd;
+}
+/* *******''''''''''''''''''End Courses '''''''''''''''''''''********* */
+
+
+/* *******'''''''''''''''''' Trainer '''''''''''''''''''''********* */
+.trainers .col-3{
+	height: 25em;
+	background-color: #adb5bd;
+}
+/* *******''''''''''''''''''End Trainer '''''''''''''''''''''********* */
+
+
+/* *******'''''''''''''''''' contact '''''''''''''''''''''********* */
+.contact .col-2{
+	height: 23em;
+	background-color: #adb5bd;
+}
+.contact .col-5{
+	height: 23em;
+	background-color: #adb5bd;
+}
+/* *******''''''''''''''''''End contact '''''''''''''''''''''********* */
+
+
+/* *******'''''''''''''''''' footer '''''''''''''''''''''********* */
+footer{
+	background-color: #adb5bd;
+	height: 7em;
+}
+/* *******''''''''''''''''''End footer '''''''''''''''''''''********* */
+
